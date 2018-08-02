@@ -65,3 +65,19 @@
 
 .about-img {
   margin-top: -50px; }
+
+#faq.bg-custom {
+  background: #444;
+  color: #fff; }
+  #faq.bg-custom .card {
+    border: #444; }
+    #faq.bg-custom .card a {
+      color: #fff;
+      text-decoration: none; }
+  #faq.bg-custom .card-body, #faq.bg-custom .card-header {
+    background: #333; }
+
+.card-blockquote {
+  padding: 0;
+  margin-bottom: 0;
+  border-left: 0; }
