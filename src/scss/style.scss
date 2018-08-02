@@ -36,9 +36,7 @@ $dark-overlay: rgba(0,0,0 ,0.7);
 #home-heading {
   position: relative;
   min-height: 200px;
-  background: url("../img/lights.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background: url("../img/lights.jpg") no-repeat fixed;
   text-align: center;
   color: #fff;
 }
@@ -55,9 +53,7 @@ $dark-overlay: rgba(0,0,0 ,0.7);
 #video-play {
   position: relative;
   min-height: 200px;
-  background: url("../img/media.jpg");
-  background-position: 0 -300px;
-  background-attachment: fixed;
+  background: url("../img/media.jpg") fixed 0 -300px;
   text-align: center;
   color: #fff;
   a{
@@ -73,9 +69,7 @@ $dark-overlay: rgba(0,0,0 ,0.7);
 
 #page-header{
   height: 200px;
-  background: url("../img/image1.jpg");
-  background-position: 0 -360px;
-  background-attachment: fixed;
+  background: url("../img/image1.jpg") fixed 0 -360px;
   color: #fff;
   border-bottom: 1px #eee solid;
   padding-top: 50px;

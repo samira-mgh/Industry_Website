@@ -17,11 +17,11 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     $(this).ekkoLightbox();
 });
 if (document.getElementById('testimonial-section')){
-    $('.slider').slick({
-        infinite:true,
-        slideToShow: 1,
-        slideToScroll:1
-    });
+$('.slider').slick({
+    infinite:true,
+    slideToShow: 1,
+    slideToScroll:1
+});
 }
 
 
